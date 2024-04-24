@@ -1,3 +1,23 @@
-.test {
-    background-color: pink;
+.header {
+    align-items: center;
+    background-color: #630286;
+    color: white;
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    padding: 0 5rem;
+    position: fixed;
+    width: 100%;
+}
+
+.cart {
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.cart-icon {
+    cursor: pointer;
+    margin-right: 0.5rem;
 }
